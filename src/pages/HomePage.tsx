@@ -1,4 +1,5 @@
 import { Box, Grid, GridItem, Show } from "@chakra-ui/react";
+import GenreList from "../components/GenreList";
 
 const HomePage = () => {
   return (
@@ -11,7 +12,7 @@ const HomePage = () => {
     >
       <Show above="lg">
         <GridItem area="aside" paddingX={5}>
-          <h1>Side Bar</h1>
+          <GenreList />
         </GridItem>
       </Show>
       <GridItem area="main">
