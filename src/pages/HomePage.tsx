@@ -3,6 +3,7 @@ import GenreList from "../components/GenreList";
 import GameHeading from "../components/GameHeading";
 import GameGrid from "../components/GameGrid";
 import PlatformSelector from "../components/PlatformSelector";
+import SortSelector from "../components/SortSelector";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
           <GameHeading />
           <HStack spacing={5} marginBottom={5}>
             <PlatformSelector />
+            <SortSelector />
           </HStack>
         </Box>
 
