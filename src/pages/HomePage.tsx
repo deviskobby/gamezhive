@@ -1,6 +1,7 @@
 import { Box, Grid, GridItem, Show } from "@chakra-ui/react";
 import GenreList from "../components/GenreList";
 import GameHeading from "../components/GameHeading";
+import GameGrid from "../components/GameGrid";
 
 const HomePage = () => {
   return (
@@ -21,7 +22,7 @@ const HomePage = () => {
           <GameHeading />
         </Box>
 
-        <h1>Main Games Area</h1>
+        <GameGrid />
       </GridItem>
     </Grid>
   );
